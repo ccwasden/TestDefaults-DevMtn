@@ -14,6 +14,7 @@
 		A0AE75C01A674A1B003AB21C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0AE75BF1A674A1B003AB21C /* Images.xcassets */; };
 		A0AE75C31A674A1B003AB21C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0AE75C11A674A1B003AB21C /* LaunchScreen.xib */; };
 		A0AE75CF1A674A1B003AB21C /* TestDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AE75CE1A674A1B003AB21C /* TestDefaultsTests.m */; };
+		A0AE75DA1A6756E3003AB21C /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AE75D91A6756E3003AB21C /* Entry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A0AE75C81A674A1B003AB21C /* TestDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AE75CD1A674A1B003AB21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0AE75CE1A674A1B003AB21C /* TestDefaultsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDefaultsTests.m; sourceTree = "<group>"; };
+		A0AE75D81A6756E3003AB21C /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		A0AE75D91A6756E3003AB21C /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				A0AE75BF1A674A1B003AB21C /* Images.xcassets */,
 				A0AE75C11A674A1B003AB21C /* LaunchScreen.xib */,
 				A0AE75B21A674A1B003AB21C /* Supporting Files */,
+				A0AE75D81A6756E3003AB21C /* Entry.h */,
+				A0AE75D91A6756E3003AB21C /* Entry.m */,
 			);
 			path = TestDefaults;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0AE75DA1A6756E3003AB21C /* Entry.m in Sources */,
 				A0AE75BB1A674A1B003AB21C /* ViewController.m in Sources */,
 				A0AE75B81A674A1B003AB21C /* AppDelegate.m in Sources */,
 				A0AE75B51A674A1B003AB21C /* main.m in Sources */,
